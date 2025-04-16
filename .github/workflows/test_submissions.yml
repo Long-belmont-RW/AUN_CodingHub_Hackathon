@@ -1,0 +1,28 @@
+name: Test Round 1 Submissions
+
+on:
+  pull_request:
+    paths:
+      - 'Roun_1/*.py'
+
+jobs:
+  run-submissions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Run all student submissions
+        run: |
+          echo "Running submitted Python files..."
+          for file in Round_1/*.py; do
+            echo "===== Running $file ====="
+            python3 "$file"
+            echo ""
+          done
