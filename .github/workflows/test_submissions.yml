@@ -3,7 +3,7 @@ name: Test Round 2 Submissions
 on:
   pull_request:
     paths:
-      - 'Roun_2/*.py'
+      - 'Round_1/*.py'
 
 jobs:
   run-submissions:
@@ -21,7 +21,7 @@ jobs:
       - name: Run all student submissions
         run: |
           echo "Running submitted Python files..."
-          for file in Round_2/*.py; do
+          for file in Round_1/*.py; do
             echo "===== Running $file ====="
             python3 "$file"
             echo ""
