@@ -1,9 +1,12 @@
 name: Test Round 2 Submissions
 
 on:
+  push:
+    paths:
+      - 'Round_2/*.py'
   pull_request:
     paths:
-      - 'Round_1/*.py'
+      - 'Round_2/*.py'
 
 jobs:
   run-submissions:
