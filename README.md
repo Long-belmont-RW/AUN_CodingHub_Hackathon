@@ -3,10 +3,10 @@
 
 This repository is for submitting solutions to Python programming tasks for Round 1.
 
-## ✅ Round 1 Instructions
+## ✅ Round 2 Instructions
 
 - Fork this repository to your GitHub account.
-- Inside the `Round_1/` folder, create a new Python file for each task.
+- Inside the `Round_2/` folder, create a new Python file for each task.
 - Name your file using your full name, lowercase with underscores and the task the file is for.  
   Example: `john_doe_task1.py`
 - Write your solution in that file.
