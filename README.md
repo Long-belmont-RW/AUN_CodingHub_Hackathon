@@ -7,11 +7,13 @@ This repository is for submitting solutions to Python programming tasks for Roun
 
 - Fork this repository to your GitHub account.
 - Inside the `Round_1/` folder, create a new Python file.
-- Name your file using your full name, lowercase with underscores.  
-  Example: `john_doe.ipynb`
+- Name your file using your full name, lowercase with underscores and the task the file is for.  
+  Example: `john_doe_task1.py`
 - Write your solution in that file.
+- Be sure to complete all task before you submit.
 - Commit and push to your forked repo.
 - Open a **Pull Request** to this repository.
+- Failure to adhere to this instruction may lead to disqualification.
 
 ## 🏆 Grading Criteria
 
