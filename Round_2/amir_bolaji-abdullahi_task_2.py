@@ -9,3 +9,4 @@ def fizzbuzz(n):
         else: 
             print(i,end="")
 
+print(fizzbuzz(12))
