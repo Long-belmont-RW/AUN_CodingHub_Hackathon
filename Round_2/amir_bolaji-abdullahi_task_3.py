@@ -4,3 +4,5 @@ def sum_digits(n):
       sum += n % 10 
       n //= 10 
     return sum
+
+print(sum_digits(543))
